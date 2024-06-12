@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Исходные файлы">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Файлы заголовков">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Файлы ресурсов">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Файлы заголовков\myClassHeaders">
+      <UniqueIdentifier>{00725f90-aac1-44a9-8630-579198e96541}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\myExceptonsHeaders">
+      <UniqueIdentifier>{b5a01d5b-948e-41d2-8a0d-9764a5c748bc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\myClassCPP">
+      <UniqueIdentifier>{28d5fc11-6c31-4848-bbdd-53c418ee46d9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\myExeptionsCPP">
+      <UniqueIdentifier>{c65e4088-7348-4893-89dd-f52f52a9ff48}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="ToP_2.1.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="myInt.cpp">
+      <Filter>Исходные файлы\myClassCPP</Filter>
+    </ClCompile>
+    <ClCompile Include="myCircleList.cpp">
+      <Filter>Исходные файлы\myClassCPP</Filter>
+    </ClCompile>
+    <ClCompile Include="nonNumericInputException.cpp">
+      <Filter>Исходные файлы\myExeptionsCPP</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="nonNumericInputException.h">
+      <Filter>Файлы заголовков\myExceptonsHeaders</Filter>
+    </ClInclude>
+    <ClInclude Include="myExeptions.h">
+      <Filter>Файлы заголовков\myExceptonsHeaders</Filter>
+    </ClInclude>
+    <ClInclude Include="myCircleList.h">
+      <Filter>Файлы заголовков\myClassHeaders</Filter>
+    </ClInclude>
+    <ClInclude Include="myClassHeaders.h">
+      <Filter>Файлы заголовков\myClassHeaders</Filter>
+    </ClInclude>
+    <ClInclude Include="myInt.h">
+      <Filter>Файлы заголовков\myClassHeaders</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
